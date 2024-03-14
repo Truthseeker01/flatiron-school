@@ -34,3 +34,8 @@ document.querySelector("form").addEventListener("submit", event => {
 document.body.addEventListener("keydown", e => {
     console.log("Keydown was pressed")
 });
+
+// ~ the "submit" event
+
+// ~ challenges
+// 1. Add some non-click, non-submit event listener to the page. It can trigger whatever you wish!

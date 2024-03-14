@@ -46,6 +46,19 @@ const image = document.createElement("img"); // it's not add to html. To add it 
 image.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcats.com%2Ffemale-cats-facts&psig=AOvVaw3BbksU7Le-nhfTzLZTcj6t&ust=1710440778893000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCND6tc7u8YQDFQAAAAAdAAAAABAE";
 //document.body.append(image);
 document.querySelector("#image-container").append(image); //appending to a specific element
+// -> querySelectorAll is a DOM method that returns an array-like list of nodes that match a CSS selector.
+// -> textContent is a property of text nodes (e.g. h1, p) that contain their text.
+
+
+// ~ Update/Modify a node's attributes
+// -> To modify an attribute, just use = after the attribute name in object dot notation
+
+// ~ Delete/Remove a node
+// -> To remove an existing element, we can look it up and call the node's method `remove()`.
+
+// ~ Create + Append a node
+// -> createElement(), append()
+
 // ~ Challenges
 // 1. Write a function named displayList that takes a name and an array,
 //    and appends a list to #dates. For example, given "Books" and "The Shining",
@@ -78,6 +91,7 @@ document.querySelector("strong").remove();
 const image2 = document.createElement("img");
 image2.src = "#"
 document.querySelector("address").append(image2);
+// 2. Replace the <strong> element with a newly created one.
 
 
 
